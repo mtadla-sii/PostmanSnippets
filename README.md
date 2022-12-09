@@ -76,7 +76,7 @@ pm.test("Your test name", function () {
 });
 ```
 
-Sprawdzenie, że json jest tówny konkretnemu stringowi
+Sprawdzenie, że json jest równy konkretnemu stringowi
 ```js 
 pm.test("Body is correct", function () {
     pm.response.to.have.body("response_body_string");
